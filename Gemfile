@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
+gem 'simple_form'
+gem 'rails-bootstrap'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -17,10 +19,11 @@ gem 'coffee-rails', '~> 4.1.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 group :test, :development do
-  gem 'rspec-rails', "~>2.14"
+  gem 'rspec-rails', "~>3.4.2"
+  gem 'better_errors'
 end
 group :test do
-  gem 'capybara', "2.1.0"
+  gem 'capybara', "2.4.0"
 end
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
